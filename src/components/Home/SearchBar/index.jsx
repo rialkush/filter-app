@@ -1,9 +1,18 @@
 import React from "react";
+import SearchIcon from '@material-ui/icons/Search'
+import './styles.css'
 
-const SearchBar = () => {
+const SearchBar = ({value, changeInput}) => {
   return (
-    <div>
-      <h1>Search Bar</h1>
+    <div className = "SearchBar-wrap">
+      {/* <SearchIcon className = 'SearchBar-icon' /> */}
+      {/* <h1>Search Bar</h1> */}
+      <input
+        type = 'text'
+        placeholder = 'Woodland Hills'
+        value = {value}
+        onChange = {changeInput}
+      />
     </div>
   );
 };
