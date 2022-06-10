@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "material-ui/core": "*",
+    "material-ui/icons": "*",
+    "material-ui/lab": "*",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },
