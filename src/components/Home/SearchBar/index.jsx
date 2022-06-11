@@ -9,7 +9,7 @@ const SearchBar = ({value, changeInput}) => {
       {/* <h1>Search Bar</h1> */}
       <input
         type = 'text'
-        placeholder = 'Woodland Hills'
+        placeholder = 'Search Here'
         value = {value}
         onChange = {changeInput}
       />
