@@ -2,7 +2,7 @@ import React from 'react';
 import FilterListToggle from '../../common/FilterListToggle';
 import {categoryList} from '../../../constants';
 
-const FilterPanel = () => {
+const FilterPanel = ({selectedCategory, selectToggle}) => {
   return (
     <div>
       {/* <h1>Filter Panel</h1> */}
@@ -12,6 +12,7 @@ const FilterPanel = () => {
         <FilterListToggle options = {categoryList} value = {selectedCategory} selectToggle = {selectToggle} />
       </div>
       {/* Cuisines */}
+
       {/* Price Range */}
       {/* Star Rating */}
     </div>
