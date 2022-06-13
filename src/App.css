@@ -10,6 +10,10 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+input {
+  font-family: 'Raleway', sans-serif;
+}
+
 /* Chrome, Safari & Opera */
 ::-webkit-scrollbar {
   display: none;
